@@ -1,0 +1,42 @@
+
+type Query {
+    getRecordMainRecord: [record_main]
+    getRecordMainRecordById(recordId: Int):record_main
+    getRecordMainByCityOrCountry(city: String, county: String):record_main
+}
+
+
+
+type record_main {
+    recordId: Int,
+    ObjectID: String,
+    GlobalID: String,
+    Username: String,
+    Password: String,
+    passwordLU: String,
+    Name: String,
+    assessment: String,
+    surveyLocation: String,
+    permittee: String,
+    plu: Int,
+    LitterAssessment: Int,
+    location_name: String,
+    Surrounding_Land_Use: String,
+    Creek_Conditions: String,
+    Site_Survey: String,
+    Child_Volunteers_count: Int,
+    total_number_bags_filled: Int,
+    weight_of_trash: Int,
+    homeless_camps_encountered: String,
+    illegal_dumpsite: String,
+    notes_about_site: String,
+    Creation_date: String,
+    Creator: String,
+    Edit_date: String,
+    Editor: String,
+    x_value: Int,
+    y_value: Int,
+    city: String,
+    county: String,
+}
+

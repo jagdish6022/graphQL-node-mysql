@@ -1,0 +1,33 @@
+{
+  "name": "graphQL-node-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagdish6022/graphQL-node-mysql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jagdish6022/graphQL-node-mysql/issues"
+  },
+  "homepage": "https://github.com/jagdish6022/graphQL-node-mysql#readme",
+  "dependencies": {
+    "apollo-server": "^3.6.1",
+    "express": "^4.17.2",
+    "fs": "0.0.1-security",
+    "graphql": "^16.2.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.5",
+    "sequelize-auto": "^0.8.8"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.3.0"
+  }
+}
